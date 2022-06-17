@@ -1,0 +1,26 @@
+{
+  "name": "nodeejemplo",
+  "version": "0.0.1",
+  "description": "Proyecto ejemplo fsd BCN 2022",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "express",
+    "node",
+    "js"
+  ],
+  "author": "Marc Cordón",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "colors": "^1.4.0",
+    "express": "^4.18.1",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.16",
+    "winston": "^3.7.2"
+  }
+}
